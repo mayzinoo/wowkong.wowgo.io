@@ -1,0 +1,242 @@
+
+.HideSquare {
+    width: 7vmin;
+    height: 5vmin;    
+    font-size: 4vmin;
+    font-weight: bold;
+    line-height: 5vmin;
+    background: #33312b;
+    border: 1px outset #ddd;
+    cursor: default;
+    display: inline-block;
+    outline: none;
+    opacity: 50%;
+}
+.Square {
+    width: 7vmin;
+    height: 5vmin;    
+    font-size: 4vmin;
+    font-weight: bold;
+    line-height: 5vmin;
+    background: #eee;
+    border: 1px outset #ddd;
+    cursor: default;
+    display: inline-block;
+    outline: none;
+}
+.Square.unrevealed:active {
+
+    background: #999;
+    border: 1px inset #fff;
+}
+
+.unrevealed-easy {
+    background-image: url("../img/avo.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+.unrevealed-medium {
+    background-image: url("../img/coconut.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+.unrevealed-hard {
+    background-image: url("../img/banana-juice.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+.unrevealed-extreme {
+    background-image: url("../img/pineapple.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+.unrevealed-nightmare {
+    background-image: url("../img/strawberry.png") !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+}
+
+.Square.old {
+    background: #b1f0dc;
+    border: 1px inset #fff;
+}
+.Square.emoji {
+    font-size: 3vmin;
+}
+.Square.revealed, .Square.mine {    
+    background: #ddd;
+}
+.Square.mine.clicked {
+    background-color: #a00;
+}
+.Square.number0 {
+    color: blue;
+    text-align: center !important;
+}
+.Square.number1 {
+    color: blue;
+}
+.Square.number2 {
+    color: green;
+}
+.Square.number3 {
+    color: red;
+}
+.Square.number4 {
+    color: darkblue;
+}
+.Square.number5 {
+    color: darkred;
+}
+.Square.number6 {
+    color: teal;
+}
+.Square.number7 {
+    color: #333;
+}
+.Square.number8 {
+    color: deeppink;
+}
+=======
+
+.HideSquare {
+    width: 7vmin;
+    height: 5vmin;    
+    font-size: 4vmin;
+    font-weight: bold;
+    line-height: 5vmin;
+    background: #33312b;
+    border: 1px outset #ddd;
+    cursor: default;
+    display: inline-block;
+    outline: none;
+    opacity: 50%;
+}
+.Square {
+    width: 7vmin;
+    height: 5vmin;    
+    font-size: 4vmin;
+    font-weight: bold;
+    line-height: 5vmin;
+    background: #eee;
+    border: 1px outset #ddd;
+    cursor: default;
+    display: inline-block;
+    outline: none;
+}
+.Square.unrevealed:active {
+    background: #999;
+    border: 1px inset #fff;
+}
+.Square.old {
+    background: #b1f0dc;
+    border: 1px inset #fff;
+}
+.Square.emoji {
+    font-size: 3vmin;
+}
+.Square.revealed, .Square.mine {
+    background: #ddd;
+}
+.Square.mine.clicked {
+    background-color: #a00;
+}
+.Square.number1 {
+    color: blue;
+}
+.Square.number2 {
+    color: green;
+}
+.Square.number3 {
+    color: red;
+}
+.Square.number4 {
+    color: darkblue;
+}
+.Square.number5 {
+    color: darkred;
+}
+.Square.number6 {
+    color: teal;
+}
+.Square.number7 {
+    color: #333;
+}
+.Square.number8 {
+    color: deeppink;
+}
+
+=======
+
+.HideSquare {
+    width: 7vmin;
+    height: 5vmin;    
+    font-size: 4vmin;
+    font-weight: bold;
+    line-height: 5vmin;
+    background: #33312b;
+    border: 1px outset #ddd;
+    cursor: default;
+    display: inline-block;
+    outline: none;
+    opacity: 50%;
+}
+.Square {
+    width: 7vmin;
+    height: 5vmin;    
+    font-size: 4vmin;
+    font-weight: bold;
+    line-height: 5vmin;
+    background: #eee;
+    border: 1px outset #ddd;
+    cursor: default;
+    display: inline-block;
+    outline: none;
+}
+.Square.unrevealed:active {
+    background: #999;
+    border: 1px inset #fff;
+}
+.Square.old {
+    background: #b1f0dc;
+    border: 1px inset #fff;
+}
+.Square.emoji {
+    font-size: 3vmin;
+}
+.Square.revealed, .Square.mine {
+    background: #ddd;
+}
+.Square.mine.clicked {
+    background-color: #a00;
+}
+.Square.number0 {
+    color: blue;
+    text-align: center !important;
+}
+.Square.number1 {
+    color: blue;
+}
+.Square.number2 {
+    color: green;
+}
+.Square.number3 {
+    color: red;
+}
+.Square.number4 {
+    color: darkblue;
+}
+.Square.number5 {
+    color: darkred;
+}
+.Square.number6 {
+    color: teal;
+}
+.Square.number7 {
+    color: #333;
+}
+.Square.number8 {
+    color: deeppink;
+}
+
+

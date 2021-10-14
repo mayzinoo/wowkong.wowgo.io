@@ -1,0 +1,355 @@
+{{##def.format:param:{{=(param.n).toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}}#}}
+
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+    #game-left-container{
+        float: left;
+    }
+    #game-right-container{
+       /* float: left;
+        margin-left: 50px;*/
+    }
+    .responsive-table{
+       /*border: 1px solid #ddd;*/
+    }
+    .table tr th {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top: 0px;    
+    border-bottom: 0px;
+    padding: 20px 15px;
+    /* background: #151928; */
+    /*background: #19142b;*/
+    background:#0d1124;
+    color: #929daf !important;
+}
+.actlog{
+  /*  font-size: 15px;
+    height: 
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding: 20px 15px;
+    background: #19142b;
+    color: #F5A623 !important;
+    line-height: 1.42857143;*/
+}
+#tabs-inner-container .tab-container li.tab.tab-active {
+    background-color: #181a1e;
+    width: 600px;
+    height: 40px;
+}
+/*tab*/
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
+.tabs {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: relative;
+  background: #0d1124;
+  /*padding: 10px 10px;*/
+  /*padding-bottom: 80px;*/
+  width: 100%;
+  height: auto;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 5px;
+  min-width: 240px;
+      height: 778px;
+    overflow: hidden;
+}
+.tabs input[name="tab-control"] {
+  display: none;
+}
+ul{
+    margin-left:0px !important;
+}
+.tabs .content section h2,
+.tabs ul li label {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 18px;
+  color: #428bff;
+}
+.tabs ul.righttab {
+  list-style-type: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  margin-bottom: 10px;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  flex-wrap: wrap;
+  background: #3f4356;
+    /*padding: 21px 0px;*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tabs ul li {
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+          flex: 1;
+  width: 25%;
+  padding: 0 0px;
+  /*text-align: center;*/
+ 
+}
+.tabs ul li.first{
+     /*border-top:5px solid #C0970A;*/
+  /*border-right: 5px solid #C0970A;*/
+}
+.tabs ul li.second{
+     /*border-top:5px solid #AAC706;*/
+  /*border-right: 5px solid #AAC706;*/
+}
+.tabs ul li.third{
+     /*border-top:5px solid #15C68E;*/
+  /*border-right: 5px solid #15C68E;*/
+}
+.tabs ul li label {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #929daf;
+  padding: 5px auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+width: 134px;
+padding-top: 20px;
+    padding-bottom: 20px;
+/*border-top:2px solid #fff;*/
+}
+.tabs ul li label br {
+  display: none;
+}
+.tabs ul li label svg {
+  fill: #929daf;
+  height: 1.2em;
+  vertical-align: bottom;
+/*margin-right: -2.8em;*/
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.tabs ul li label:hover, .tabs ul li label:focus, .tabs ul li label:active {
+  outline: 0;
+  color: #bec5cf;
+}
+.tabs ul li label:hover svg, .tabs ul li label:focus svg, .tabs ul li label:active svg {
+  fill: #bec5cf;
+}
+.tabs .slider {
+  position: relative;
+  width: 30%;
+  -webkit-transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
+  transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
+  top: -14px;
+}
+.tabs .slider .indicator {
+  position: relative;
+  width: 70px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 4px;
+  background: #929daf;
+  border-radius: 1px;
+}
+
+.tabs .content {
+  margin-top: 30px;
+}
+.tabs .content section {
+  di{{##def.format:param:{{=(param.n).toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,")}}#}}
+
+<!DOCTYPE html>
+<html>
+<style type="text/css">
+    #game-left-container{
+        float: left;
+    }
+    #game-right-container{
+       /* float: left;
+        margin-left: 50px;*/
+    }
+    .responsive-table{
+       /*border: 1px solid #ddd;*/
+    }
+    .table tr th {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top: 0px;    
+    border-bottom: 0px;
+    padding: 20px 15px;
+    /* background: #151928; */
+    /*background: #19142b;*/
+    background:#0d1124;
+    color: #929daf !important;
+}
+.actlog{
+  /*  font-size: 15px;
+    height: 
+    font-weight: 600;
+    text-transform: uppercase;
+    border-top: 0px;
+    border-bottom: 0px;
+    padding: 20px 15px;
+    background: #19142b;
+    color: #F5A623 !important;
+    line-height: 1.42857143;*/
+}
+#tabs-inner-container .tab-container li.tab.tab-active {
+    background-color: #181a1e;
+    width: 600px;
+    height: 40px;
+}
+/*tab*/
+@import "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
+.tabs {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  position: relative;
+  background: #0d1124;
+  /*padding: 10px 10px;*/
+  /*padding-bottom: 80px;*/
+  width: 100%;
+  height: auto;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  border-radius: 5px;
+  min-width: 240px;
+      height: 778px;
+    overflow: hidden;
+}
+.tabs input[name="tab-control"] {
+  display: none;
+}
+ul{
+    margin-left:0px !important;
+}
+.tabs .content section h2,
+.tabs ul li label {
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 18px;
+  color: #428bff;
+}
+.tabs ul.righttab {
+  list-style-type: none;
+  padding-left: 0;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  margin-bottom: 10px;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+          align-items: flex-end;
+  flex-wrap: wrap;
+  background: #3f4356;
+    /*padding: 21px 0px;*/
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.tabs ul li {
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+          flex: 1;
+  width: 25%;
+  padding: 0 0px;
+  /*text-align: center;*/
+ 
+}
+.tabs ul li.first{
+     /*border-top:5px solid #C0970A;*/
+  /*border-right: 5px solid #C0970A;*/
+}
+.tabs ul li.second{
+     /*border-top:5px solid #AAC706;*/
+  /*border-right: 5px solid #AAC706;*/
+}
+.tabs ul li.third{
+     /*border-top:5px solid #15C68E;*/
+  /*border-right: 5px solid #15C68E;*/
+}
+.tabs ul li label {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  color: #929daf;
+  padding: 5px auto;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  white-space: nowrap;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+width: 134px;
+padding-top: 20px;
+    padding-bottom: 20px;
+/*border-top:2px solid #fff;*/
+}
+.tabs ul li label br {
+  display: none;
+}
+.tabs ul li label svg {
+  fill: #929daf;
+  height: 1.2em;
+  vertical-align: bottom;
+/*margin-right: -2.8em;*/
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+.tabs ul li label:hover, .tabs ul li label:focus, .tabs ul li label:active {
+  outline: 0;
+  color: #bec5cf;
+}
+.tabs ul li label:hover svg, .tabs ul li label:focus svg, .tabs ul li label:active svg {
+  fill: #bec5cf;
+}
+.tabs .slider {
+  position: relative;
+  width: 30%;
+  -webkit-transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
+  transition: all 0.33s cubic-bezier(0.38, 0.8, 0.32, 1.07);
+  top: -14px;
+}
+.tabs .slider .indicator {
+  position: relative;
+  width: 70px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 4px;
+  background: #929daf;
+  border-radius: 1px;
+}
+
+.tabs .content {
+  margin-top: 30px;
+}
+.tabs .content section {
+  di

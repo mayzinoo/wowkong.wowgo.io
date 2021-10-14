@@ -1,0 +1,88 @@
+.loader {
+  position: absolute;
+  top: calc(50% - 4em);
+  left: calc(50% - 4em);
+  width: 6em;
+  height: 6em;
+  border: 1.1em solid rgba(0, 0, 0, 0.2);
+  border-left: 1.1em solid #000000;
+  border-radius: 50%;
+  animation: load8 1.1s infinite linear;
+  transition: opacity 0.3s;
+}
+
+.loader--hide {
+  opacity: 0;
+}
+
+@keyframes load8 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Board4 {
+    display: inline-grid;
+    grid-gap: 0;
+    column-gap: 0;
+    margin-left: 0px;
+    /*margin: 0 auto;*/
+    /*border: 1vmin solid #ddd;*/
+    width: 350px;
+    /*background:red;*/
+    /*padding:10px;*/
+}
+.Board4.disabled {
+    pointer-events: none;
+   
+}
+.Board3 {
+    display: inline-grid;
+    grid-gap: 0;
+    column-gap: 0;
+    margin: 0 auto;
+    /*border: 1vmin solid #ddd;*/    
+    width: 430px;
+    max-width: 100%;
+    /*background:red;*/
+    /*padding:10px;*/
+}
+.Board3.disabled {
+    pointer-events: none;
+   
+}
+.Board2 {
+    display: inline-grid;
+    grid-gap: 0;
+    column-gap: 0;
+    margin: 0 auto;
+    /*border: 1vmin solid #ddd;*/    
+    width: 430px;
+    max-width: 100%;
+    /*background:red;*/
+    /*padding:10px;*/
+}
+.Board2.disabled {
+    pointer-events: none;   
+}
+
+.Board {
+    display: inline-grid;
+    grid-gap: 0;
+    column-gap: 0;
+    margin: 0 auto;
+    /*border: 1vmin solid #ddd;*/
+    overflow: auto;
+    max-width: 100%;
+    width: 400px;
+    /*background:red;*/
+    /*padding:10px;*/
+}
+.Board.disabled {
+    pointer-events: none;
+   
+}
+
