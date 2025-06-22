@@ -42,7 +42,9 @@ Running
 
 Run `npm start`. By default it will listen on port `3841`.
 
+![wowkong](https://github.com/user-attachments/assets/a43e3bb2-ed6a-4b46-ad12-79f8923db5a7)
 
 
+![wowko](https://github.com/user-attachments/assets/d7941614-3486-4f3b-b4e4-a12944ac036a)
 
 
